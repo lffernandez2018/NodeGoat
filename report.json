@@ -1,0 +1,98 @@
+[
+    {
+        "hash": "675a62f27e51b1df889be099be84fc46",
+        "description": "RSAprivatekey",
+        "file": "artifacts/cert/server.key",
+        "line": 15
+    },
+    {
+        "hash": "6d261d2fdeb54f82678a9c202003b5c5",
+        "description": "GenericAPIKey",
+        "file": "app/views/tutorial/a2.html",
+        "line": 310
+    },
+    {
+        "hash": "58dcd67d7e5553cd0796570c1c6c1fe4",
+        "description": "Highentropy",
+        "file": "artifacts/cert/server.crt",
+        "line": 13
+    },
+    {
+        "hash": "9e40fb1274d408b441c8dc6502db7234",
+        "description": "Session middleware settings: `maxAge` not set. Use it to set expiration date for cookies.",
+        "file": "server.js",
+        "line": 78
+    },
+    {
+        "hash": "4675867f50c662ddc6ecb29b23188e99",
+        "description": "Ensure that the regex used to compare with user supplied input is safe from regular expression denial of service.",
+        "file": "app/assets/vendor/chart/raphael-min.js",
+        "line": 10
+    },
+    {
+        "hash": "aa031efa630ae83c27e71e05388a297f",
+        "description": "Untrusted user input in redirect() can result in Open Redirect vulnerability.",
+        "file": "app/routes/index.js",
+        "line": 74
+    },
+    {
+        "hash": "204bced0ba88e19d2c050af9dfb34b28",
+        "description": "String comparisons using '===', '!==', '!=' and '==' is vulnerable to timing attacks. More info: https://snyk.io/blog/node-js-timing-attack-ccc-ctf/",
+        "file": "app/routes/session.js",
+        "line": 170
+    },
+    {
+        "hash": "b0ad990bcdf4fd37d98136f4c89b45e6",
+        "description": "A hardcoded password in plain text is identified. Store it properly in an environment variable.",
+        "file": "app/routes/session.js",
+        "line": 59
+    },
+    {
+        "hash": "a10a6f7b08a369af66dfc0cf2c373fb1",
+        "description": "User controlled data in eval() or similar functions may result in Server Side Injection or Remote Code Injection",
+        "file": "app/assets/vendor/jquery.min.js",
+        "line": 4
+    },
+    {
+        "hash": "8dc3cc435cb9f0a7a07b0e807cff76d3",
+        "description": "A hardcoded username in plain text is identified. Store it properly in an environment variable.",
+        "file": "app/routes/session.js",
+        "line": 58
+    },
+    {
+        "hash": "365c82000705402120743c923e31b580",
+        "description": "A variable is present in the filename argument of fs calls, this might allow an attacker to access anything on your system.\n",
+        "file": "app/assets/vendor/jquery.min.js",
+        "line": 6
+    },
+    {
+        "hash": "4820d896a41a056f74ca65a9d925b309",
+        "description": "Detected eval(variable), which could allow a malicious actor to run arbitrary code.\n",
+        "file": "app/routes/contributions.js",
+        "line": 32
+    },
+    {
+        "hash": "74dcd3888939d1c9ef8898b48f180a72",
+        "description": "Detected the use of require(variable). Calling require with a non-literal argument might\nallow an attacker to load an run arbitrary code, or access arbitrary files.\n",
+        "file": "config/config.js",
+        "line": 7
+    },
+    {
+        "hash": "8d163be3a1f026e97287e1100a0d14ca",
+        "description": "Bracket object notation with user input is present, this might allow an attacker to access all properties of the object and even it's prototype, leading to possible code execution.",
+        "file": "app/assets/vendor/bootstrap/bootstrap-tour.js",
+        "line": 79
+    },
+    {
+        "hash": "9a3e13f10714cd530b232c247a6e0b38",
+        "description": "Ensure that HEALTHCHECK instructions have been added to container images",
+        "file": "Dockerfile",
+        "line": 1
+    },
+    {
+        "hash": "e0d9a97be2a8067679e6f81d6521df6b",
+        "description": "Private Key",
+        "file": "artifacts/cert/server.key",
+        "line": 1
+    }
+]
